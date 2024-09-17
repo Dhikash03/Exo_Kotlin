@@ -1,5 +1,9 @@
-fun getVolume(...){
-    //TODO
+fun getVolume(length : Int, width: Int = 1, heigth: Int = 1 ) : Int{
+
+    return length * width * heigth
+
+
+
 }
 
 fun main() {
